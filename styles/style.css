@@ -10,14 +10,17 @@
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+  
 }
 .profile {
   background: var(--Grey-800);
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.profile header {
+  display: flex;
+  justify-content: center;
 }
 .profile img {
   border-radius: 100%;
